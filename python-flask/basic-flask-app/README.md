@@ -67,3 +67,7 @@
 - In blueprints/detail.html, I made a basic page structure to view the details of a specific language.
 - In main.py, I've added a dynamic route to view the detail page for the selected language.
 - I refreshed my app.
+13. Add nav link to languages + layout and footer updates
+- To the navigation bar in templates/base.html, I added a href to the languages subdomain. I also added a footer to the HTML document.
+- In static/style.css, I added the styles for these new elements.
+- I refreshed the app.
