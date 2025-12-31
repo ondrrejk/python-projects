@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}Language Details{% endblock %}
+
+{% block content %}
+<h1>{{ language.name }}</h1>
+
+<p>{{ language.description }}</p>
+<p><strong>Experience level:</strong> {{ language.experience }}</p>
+
+<a href="/languages">← Back to all languages</a>
+{% endblock %}

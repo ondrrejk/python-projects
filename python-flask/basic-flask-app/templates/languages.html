@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}Languages{% endblock %}
+
+{% block content %}
+<h1>Favorite Programming Languages</h1>
+
+{% for lang in languages %}
+    <div class="language-card">
+        <h3>{{ lang.name }}</h3>
+        <p>{{ lang.description }}</p>
+        <p><strong>Experience:</strong> {{ lang.experience }}</p>
+        <a href="{{ lang.link }}">Learn more →</a>
+    </div>
+{% endfor %}
+{% endblock %}
